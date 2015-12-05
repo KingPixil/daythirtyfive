@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Bitter:700);
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  background: #0eaf79;
+  color: white;
+  max-width: 38em;
+  margin: 2em auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bitter, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.demo-text {
+  display: none;
+}
+
+.before-cursor {
+  display: inline;
+}
+
+.cursor {
+  display: inline;
+}
+
+.cursor.visible {
+  border-left: 1px solid white;
+}
